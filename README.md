@@ -12,6 +12,7 @@ To use Visual Studio Code, follow instructions [here](https://marketplace.visual
 - [ ] [Rustlings - 🦀 Small exercises to get you used to reading and writing Rust code!](https://github.com/rust-lang/rustlings)
 - [ ] [Exercism Rus Track](https://exercism.org/tracks/rust/)
 - [ ] [Ultimate Rust crash course](udemy.com/course/ultimate-rust-crash-course/)
+- - [Ultimate Rust crash course exercises repository](https://github.com/CleanCut/ultimate_rust_crash_course/#exercises)
 - [Path with many exercises](https://github.com/jondot/rust-how-do-i-start)
 
 ## Annotations
