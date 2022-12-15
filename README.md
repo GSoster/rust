@@ -12,3 +12,11 @@ To use Visual Studio Code, follow instructions [here](https://marketplace.visual
 - [ ] [Rustlings - 🦀 Small exercises to get you used to reading and writing Rust code!](https://github.com/rust-lang/rustlings)
 - [ ] [Exercism Rus Track](https://exercism.org/tracks/rust/)
 - [ ] [Ultimate Rust crash course](udemy.com/course/ultimate-rust-crash-course/)
+
+## Annotations
+
+File structure and naming
+
+Rust files always end with the *.rs* extension. If you’re using more than one word in your filename, the convention is to use an underscore to separate them. For example, use *hello_world.rs* rather than helloworld.rs.
+
+To compile a .rs file into executable execute `rustc filename`: `rustc main.rs`
