@@ -4,6 +4,8 @@ Repo for Rust practice and learning
 
 ## Environment Setup
 
+To use Visual Studio Code, follow instructions [here](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+
 ## Resources
 
 - [ ] [The Rust Book](https://doc.rust-lang.org/book/)
