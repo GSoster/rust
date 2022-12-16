@@ -51,3 +51,40 @@ Associated Functions = Static functions in C#
 `io::stdin().read_line(&mut guess)` he & indicates that this argument is a reference, which gives you a way to let multiple parts of your code access one piece of data without needing to copy that data into memory multiple times. Like variables, references are *immutable by default*. Hence, you need to write **&mut** guess rather than &guess to make it mutable.
 
 #### Shadowing
+
+```rs
+// shadowing in different scopes
+let x = 5;
+{
+    let x = 99;
+    println!("x = {x}"); // 99
+}
+println!("x = {x}"); // 5
+
+// shadowing in the same scope
+let mut y = 5; // y is mutable
+let y = 10; // y is now immutable
+
+// shadowing for different types, useful for data transformation pipelines:
+
+let meme = "More Cowbel!"; // is string
+let meme = make_image(meme); // is now a image
+
+```
+
+#### Memory Safety
+
+Rust garantees memory safety at compile time, it meas that **variables MUST BE INITIALIZED**.  
+```rs
+let enigma :i32;
+println!("{}", enigma); // ERROR!
+
+// it fails even if it we use a condition that is true:
+let enigma2 :i32;
+if true {
+    enigma2 = 3;
+}
+println!("{}", enigma2); // ERROR!
+
+
+```
