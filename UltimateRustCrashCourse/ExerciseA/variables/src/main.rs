@@ -1,6 +1,8 @@
 const STARTING_MISSILES :i32 = 8;
 const READY_AMOUNT :i32 = 2;
 
+use variables::greet;
+
 fn main() {
 
     //let mut missiles :i32 = STARTING_MISSILES;
@@ -12,5 +14,7 @@ fn main() {
 
     println!("{} missiles left!", missiles);
 
+    // use allow us to not have to write: variables::greet();
+    greet();
 
 }
