@@ -14,6 +14,8 @@ To use Visual Studio Code, follow instructions [here](https://marketplace.visual
 - [ ] [Ultimate Rust crash course](udemy.com/course/ultimate-rust-crash-course/)
 - - [Ultimate Rust crash course exercises repository](https://github.com/CleanCut/ultimate_rust_crash_course/#exercises)
 - [Path with many exercises](https://github.com/jondot/rust-how-do-i-start)
+- [Projects and list of resources](https://github.com/steadylearner/Rust-Full-Stack#interesting-projects-and-blog-posts-from-others)
+- [Youtube playlist with lots of Projects](https://www.youtube.com/playlist?list=PLJbE2Yu2zumDD5vy2BuSHvFZU0a6RDmgb)
 
 ## Annotations
 
